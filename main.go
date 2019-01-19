@@ -14,7 +14,7 @@
 
 package main
 
-import "thomaseitler/gotodotxt/cmd"
+import "github.com/thomaseitler/gotodotxt/cmd"
 
 func main() {
 	cmd.Execute()

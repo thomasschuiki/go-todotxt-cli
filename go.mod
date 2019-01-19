@@ -14,7 +14,4 @@ require (
 	golang.org/x/crypto v0.0.0-20190103213133-ff983b9c42bc // indirect
 	golang.org/x/sys v0.0.0-20190116161447-11f53e031339 // indirect
 	gopkg.in/check.v1 v1.0.0-20180628173108-788fd7840127 // indirect
-	thomaseitler/gotodotxt/cmd v0.0.0
 )
-
-replace thomaseitler/gotodotxt/cmd v0.0.0 => ./cmd
