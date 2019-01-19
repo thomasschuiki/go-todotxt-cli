@@ -13,3 +13,6 @@
 
 # ignore todo.txt
 todo.txt
+
+# generated binary
+gotodotxt
