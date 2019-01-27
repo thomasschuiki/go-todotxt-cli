@@ -22,7 +22,7 @@ import (
 	homedir "github.com/mitchellh/go-homedir"
 	"github.com/spf13/cobra"
 	"github.com/spf13/viper"
-	"github.com/JamesClonk/go-todotxt"
+	"github.com/thomaseitler/go-todotxt"
 )
 
 var cfgFile string

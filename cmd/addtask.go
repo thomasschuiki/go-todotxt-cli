@@ -19,7 +19,7 @@ import (
 	"log"
 
 	"github.com/spf13/cobra"
-	"github.com/JamesClonk/go-todotxt"
+	"github.com/thomaseitler/go-todotxt"
 )
 
 // addtaskCmd represents the addtask command
