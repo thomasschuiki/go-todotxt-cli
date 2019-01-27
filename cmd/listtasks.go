@@ -34,7 +34,7 @@ to quickly create a Cobra application.`,
 	Run: func(cmd *cobra.Command, args []string) {
 		fmt.Println("listtasks called")
 		// TODO: add argument for count of newest todos to display
-		fmt.Print(TodoTxtFile[len(TodoTxtFile)-5:])
+		fmt.Print(TodoTxtFile.Display())
 	},
 }
 
