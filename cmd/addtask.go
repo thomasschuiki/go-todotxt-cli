@@ -37,6 +37,8 @@ to quickly create a Cobra application.`,
 		log.Println("addtask called")
 		log.Println("Arguments: " + strings.Join(args, " "))
 		task := todotxt.NewTask()
+		task.Original = strings.Join(args, " ")
+		task.Todo = args[0]
 		TodoTxtFile.AddTask(&task)
 		TodoTxtFile.WriteToFilename("todo.txt")
 	},
