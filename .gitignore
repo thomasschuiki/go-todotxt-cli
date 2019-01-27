@@ -14,5 +14,5 @@
 # ignore todo.txt
 todo.txt
 
-# generated binary
-todotxt
+# generated binaries
+/bin
